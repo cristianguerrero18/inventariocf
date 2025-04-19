@@ -4,5 +4,5 @@ const router  = Router()  ;
 
 
 router.get("/",categoriaController.getCategorias);
-
+router.post("/",categoriaController.postCategorias)
 export default router; 
