@@ -6,6 +6,6 @@ const app = express();
 
 
 app.set("port",5000);
-app.use(categoriasRoutes)
+app.use("/api/categorias",categoriasRoutes)
 
 export default app ; 
