@@ -11,7 +11,6 @@ const getCategorias  = async (req ,res) => {
 
 }
 
-
 const getCategory  = async (req ,res) => {
   try {
     console.log(req.params);

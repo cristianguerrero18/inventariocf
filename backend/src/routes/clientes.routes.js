@@ -4,5 +4,6 @@ const router  = Router()  ;
 
 
 router.get("/",clienteController.getClientes);
+router.post("/",clienteController.postClientes);
 
 export default router; 
